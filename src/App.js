@@ -1,21 +1,19 @@
 import React from 'react';
-import { Layout , Typography , Empty} from 'antd';
+import { Layout } from 'antd';
+import Header from './Shared/Header/Header';
+import {Home} from './pages/Home/Home';
 import 'antd/dist/antd.css';
 import './App.css';
 
 
-const { Header, Content ,Footer} = Layout;
-const { Title } = Typography;
+const { Content ,Footer} = Layout;
+
 function App() {
   return (
     <Layout>
-     <Header>
-      <Title>
-        Movie List Application !
-      </Title>
-     </Header>
+     <Header />
      <Content>
-       <Empty></Empty>
+       <Home />
      </Content>
      <Footer>
        Footer
