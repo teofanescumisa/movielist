@@ -1,3 +1,11 @@
 h1.ant-typography {
     color:white;
 }
+.result_poster img {
+    max-width: 100%;
+    
+}
+.result_item {
+    margin-top:5 px;
+    margin-bottom: 5px;
+}
