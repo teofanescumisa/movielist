@@ -43,3 +43,4 @@ export const ResultList = props => {
     )
   })
 }
+export default ResultList;
